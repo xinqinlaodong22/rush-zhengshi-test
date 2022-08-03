@@ -1,0 +1,3 @@
+{
+    "files.associations": { "*.json": "jsonc" } //VS Code 默认会将 JSON 注释高亮为错误,配置这个就不报红
+}

@@ -1,0 +1,22 @@
+# 所有文本文件的行尾，检入仓库时，转换为LF
+# 注意工作区中的行尾不会改变
+# 检出时，按操作系统转换换行符，windows为CRLF，Mac和Linux为LF
+*                 text=auto
+
+# 对于Prettier规范的文件，在检入或检出时始终保持为LF
+*.css             text eol=lf
+*.htm             text eol=lf
+*.html            text eol=lf
+*.js              text eol=lf
+*.json            text eol=lf
+*.jsx             text eol=lf
+*.cjs             text eol=lf
+*.mjs             text eol=lf
+*.less            text eol=lf
+*.sass            text eol=lf
+*.scss            text eol=lf
+*.ts              text eol=lf
+*.tsx             text eol=lf
+*.cts             text eol=lf
+*.mts             text eol=lf
+*.vue             text eol=lf
