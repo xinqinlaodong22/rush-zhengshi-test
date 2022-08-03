@@ -292,7 +292,7 @@
      * to retrieve the latest activity for the remote main branch.
      */
     "url": "https://github.com/xinqinlaodong22/rush-zhengshi-test.git",
-    "defaultBranch": "master",
+    "defaultBranch": "main",
     "defaultRemote": "origin"
     /**
      * The default branch name. This tells "rush change" which remote branch to compare against.
@@ -398,6 +398,10 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
+    {
+      "packageName": "vue3-dygk-m",
+      "projectFolder": "apps/vue3-dygk-m"
+    }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
