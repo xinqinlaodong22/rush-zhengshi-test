@@ -1,39 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router'
-const IndexView = () => import(/* webpackChunkName: "index" */ '@/views/IndexView.vue')
-const ZhiyuanPlan = () => import(/* webpackChunkName: "ZhiyuanPlan" */ '@/views/ZhiyuanPlan.vue')
-const MemberView = () => import(/* webpackChunkName: "MemberView" */ '@/views/MemberView.vue')
-
-const routes = [
-  {
-    path: '/',
-    name: 'Index',
-    component: IndexView,
-    meta: {
-      title: '高考志愿填报'
-    }
-  },
-  {
-    path: '/zhiyuanplan',
-    name: 'ZhiyuanPlan',
-    component: ZhiyuanPlan,
-    meta: {
-      title: '我的志愿方案',
-      requireUserAuthority: 1
-    }
-  },
-  {
-    path: '/member',
-    name: 'Member',
-    component: MemberView,
-    meta: {
-      title: '会员中心'
-    }
-  }
-]
+import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: HomeView
+    },
+    {
+      path: '/about',
+      name: 'about',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/AboutView.vue')
+    }
+  ]
 })
 
 export default router

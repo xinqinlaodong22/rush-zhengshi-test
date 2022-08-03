@@ -1,3 +1,28 @@
 {
-    "files.associations": { "*.json": "jsonc" } //VS Code 默认会将 JSON 注释高亮为错误,配置这个就不报红
-}
+  "files.associations": { "*.json": "jsonc" }, //VS Code 默认会将 JSON 注释高亮为错误,配置这个就不报红
+
+    // 关闭VS Code自带的css校验
+    // https://code.visualstudio.com/docs/languages/css#_syntax-verification-linting
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    // 关闭VS Code自带的js校验
+    // https://code.visualstudio.com/docs/languages/javascript#_how-do-i-disable-syntax-validation-when-using-nones6-constructs
+    "javascript.validate.enable": false,
+    // 关闭VS Code自带的保存时格式化功能，因为VS Code自带的文件格式化规则可能和Eslint、Prettier、stylelint冲突
+    "editor.formatOnSave": false,
+    // 保存时自动修复eslint和stylelint错误
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    },
+    // stylelint可校验的文件类型
+    "stylelint.validate": [
+      "css",
+      "less",
+      "postcss",
+      "scss",
+      "sass",
+      "vue"
+    ]
+  }
