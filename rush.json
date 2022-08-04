@@ -400,8 +400,16 @@
   "projects": [
     {
       "packageName": "vue3-dygk-m",
-      "projectFolder": "apps/vue3-dygk-m"
+      "projectFolder": "apps/vue3-dygk-m",
+      "reviewCategory": "production"
+    },
+    {
+      "packageName": "dygk-interface",
+      "projectFolder": "common-stores/dygk-interface",
+      "reviewCategory": "interface",
+      "shouldPublish": true
     }
+    
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
