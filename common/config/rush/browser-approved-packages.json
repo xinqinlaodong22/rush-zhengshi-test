@@ -1,0 +1,114 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@rushstack/eslint-patch",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "@vitejs/plugin-vue",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "@vue/eslint-config-prettier",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "@vue/eslint-config-typescript",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "@vue/tsconfig",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "dygk-interface",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "eslint-plugin-vue",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "lint-staged",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "npm-run-all",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "pinia",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "postcss-html",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "prettier",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "sass",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "stylelint",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "stylelint-config-prettier",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "stylelint-config-recess-order",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "stylelint-config-standard-scss",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "stylelint-config-standard-vue",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "stylelint-prettier",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "unplugin-auto-import",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "vite",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "vue",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "vue-router",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "vue-tsc",
+      "allowedCategories": [ "interface", "production" ]
+    },
+    {
+      "name": "yorkie",
+      "allowedCategories": [ "interface", "production" ]
+    }
+  ]
+}

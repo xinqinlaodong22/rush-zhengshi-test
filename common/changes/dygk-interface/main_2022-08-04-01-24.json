@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "dygk-interface",
+      "comment": "Add count store",
+      "type": "patch"
+    }
+  ],
+  "packageName": "dygk-interface"
+}
