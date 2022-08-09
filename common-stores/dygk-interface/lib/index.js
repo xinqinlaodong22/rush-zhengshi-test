@@ -1,1 +1,1 @@
-export { useCounterStore } from '../src/stores/counter'
+export { useStore } from '../src/stores/counter.ts'

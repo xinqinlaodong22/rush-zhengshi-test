@@ -2,6 +2,7 @@
   "name": "dygk-interface",
   "version": "0.0.0",
   "main":"lib/index.js",
+  "module":"dist/assets/index.a1cea81e.js",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -26,9 +27,11 @@
   "dependencies": {
     "pinia": "^2.0.16",
     "vue": "^3.2.37",
-    "vue-router": "^4.1.2"
+    "vue-router": "^4.1.2",
+    "postcss": "^8.3.3"
   },
   "devDependencies": {
+    "qs":"6.0.0",
     "@rushstack/eslint-patch": "^1.1.0",
     "@types/node": "^16.11.45",
     "@vitejs/plugin-vue": "^3.0.1",
